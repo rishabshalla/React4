@@ -1,0 +1,94 @@
+body {
+  background-color: violet;
+  margin: 0%;
+}
+.header {
+  background-color: yellowgreen;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: xx-large;
+}
+
+.heading {
+  margin-top: 15px;
+  text-shadow: 10px 10px 20px black;
+}
+
+.link {
+  color: black;
+  font-size: 50px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.addStudentLink {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 80%;
+  padding-top: 15px;
+  background-color: red;
+  width: 270px;
+  height: 50px;
+  border-radius: 4rem;
+  border-style: none;
+  text-decoration: none;
+}
+
+.studentButton {
+  margin-top: -100px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.table {
+  border-style: solid;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 400px;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 30px;
+  border-radius: 0.8rem;
+  box-shadow: 10px 10px 100px rgb(146, 189, 124);
+}
+
+label {
+  color: rgb(138, 173, 174);
+  text-shadow: 5px 5px 10px rgb(171, 128, 128);
+}
+
+input {
+  margin-left: 50px;
+  width: 300px;
+  height: 30px;
+  border-top: 0ch;
+  border-left: 0ch;
+  border-right: 0ch;
+  border-radius: 0.8rem;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  border-radius: 0.8rem;
+  border-style: none;
+  background-color: rgb(73, 16, 16);
+}
+
+button:hover {
+  background-color: rgb(218, 158, 134);
+}
